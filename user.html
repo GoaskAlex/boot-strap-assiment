@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Boot-strap Plug-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <!--Boot-strap call-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/f8254b8fa8.js" crossorigin="anonymous"></script>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>User Page</title>
+   
+</head>
+<body>
+
+    <!--Nav linkless-->
+<nav class="navbar bg-dark border-bottom border-body data-bs-theme="dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"></a>
+      
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#"></a>
+          </li>
+        </ul>
+        <span class="navbar-text"  style= "color:white">
+        
+            <img src="./images/plague-doctor-profile.png "width="45px" height= "45px"
+            object-fit="cover"
+            border-radius="50%">
+            Mangaka Cafe
+        </span>
+      </div>
+    </div>
+  </nav>
+
+
+
+    <!--NavBar-->
+    <div class="sidebar">
+      <div class="logo_details">
+        <img src="./images/plague-doctor-profile.png" width="20px"margin-right="5px">
+        <div class="logo_name">Mangaka Cafe</div>
+        <i class="bx bx-menu" id="btn"></i>
+      </div>
+      <ul class="nav-list">
+        <li>
+          <i class="bx bx-search"></i>
+          <input type="text" placeholder="Search...">
+           <span class="tooltip">Search</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-grid-alt"></i>
+            <span class="link_name">Collection</span>
+          </a>
+          <span class="tooltip">Collection</span>
+        </li>
+        
+        <li>
+          <a href="#">
+            <i class="fas fa-book-open"></i>
+            <span class="link_name">Library</span>
+          </a>
+          <span class="tooltip">Library</span>
+        </li>
+        
+        
+        <li>
+          <a href="#">
+            <i class="fas fa-arrow-up"></i>
+            <span class="link_name">Updates</span>
+          </a>
+          <span class="tooltip">Updates</span>
+        </li>
+        <li>
+          <a href="#">
+            <i class="bx bx-cog"></i>
+            <span class="link_name">Profile</span>
+          </a>
+          <span class="tooltip">Profile</span>
+        </li>
+        <li class="profile">
+          <div class="profile_details">
+            <img src="images/plague-doctor-profile.png" alt="profile image">
+            <div class="profile_content">
+              <div class="name">Alex Hunter</div>
+              <div class="designation">Admin</div>
+            </div>
+          </div>
+          <i class="bx bx-log-out" id="log_out"></i>
+        </li>
+      </ul>
+    </div>
+   
+ 
+<!--User Data card-->
+<div class="bg">
+    <div class="container">
+
+        <div class="ch-container-5">
+            <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="images/Detective.jpg" width="200px" height="700px" over-flow class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/cats.jpg" width="400px" height="700px" class="d-block w-100" alt="...">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="images/Lost.jpg" width="400px" height="700px" class="d-block w-100" alt="...">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </div>
+            <!---->
+        
+
+
+        <!---->
+        <div class="ch-container-m">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                <div class="col-md-4">
+                <img src="images/under.jpg " alt="Manga cover Under Ninja" class="img-fluid rounded-start">
+                </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Under Ninja</h5>
+                  <p class="card-text">Kurō The seventeen-year-old high school loser is 
+                    now poised to be the next line of defense against a potential surge in foreign assassins invading Tokyo</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <!---->
+        <div class="ch-container-m">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                <div class="col-md-4">
+                <img src="images/under.jpg " alt="Manga cover Under Ninja" class="img-fluid rounded-start">
+                </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Under Ninja</h5>
+                  <p class="card-text">Kurō The seventeen-year-old high school loser is 
+                    now poised to be the next line of defense against a potential surge in foreign assassins invading Tokyo</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <!---->
+        <div class="ch-container-m">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                <div class="col-md-4">
+                <img src="images/under.jpg " alt="Manga cover Under Ninja" class="img-fluid rounded-start">
+                </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Under Ninja</h5>
+                  <p class="card-text">Kurō The seventeen-year-old high school loser is 
+                    now poised to be the next line of defense against a potential surge in foreign assassins invading Tokyo</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+
+    <!---->
+        <div class="ch-container-m">
+            <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                <div class="col-md-4">
+                <img src="images/under.jpg " alt="Manga cover Under Ninja" class="img-fluid rounded-start">
+                </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Under Ninja</h5>
+                  <p class="card-text">Kurō The seventeen-year-old high school loser is 
+                    now poised to be the next line of defense against a potential surge in foreign assassins invading Tokyo</p>
+                  <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </div>
+
+    <!---->
+
+
+
+    
+   
+     </div>
+</section>
+     </div>
+     </div>
+
+
+
+
+
+   <!-- Scripts -->
+   <script>
+window.onload = function(){
+    const sidebar = document.querySelector(".sidebar");
+    const closeBtn = document.querySelector("#btn");
+    const searchBtn = document.querySelector(".bx-search")
+
+    closeBtn.addEventListener("click",function(){
+        sidebar.classList.toggle("open")
+        menuBtnChange()
+    })
+
+    searchBtn.addEventListener("click",function(){
+        sidebar.classList.toggle("open")
+        menuBtnChange()
+    })
+
+    function menuBtnChange(){
+        if(sidebar.classList.contains("open")){
+            closeBtn.classList.replace("bx-menu","bx-menu-alt-right")
+        }else{
+            closeBtn.classList.replace("bx-menu-alt-right","bx-menu")
+        }
+    }
+}
+
+
+
+   </script>
+
+
+
+                
+
+
+                
+</body>
+</html>
